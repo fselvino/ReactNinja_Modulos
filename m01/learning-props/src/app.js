@@ -2,7 +2,8 @@
 
 // var React = require('react')
 import React, { Component } from 'react'
-import Button from './button'
+import LikeButton from './like-button'
+import SearchButton from './search-button'
 // import Title from './title'
 // import Square from './square'
 
@@ -14,7 +15,8 @@ class App extends Component {
 
     return (
       <div>
-        <Button>Botão2</Button>
+        <LikeButton />
+        <SearchButton />
       </div>
     )
   }
