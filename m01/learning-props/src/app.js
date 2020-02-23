@@ -7,7 +7,7 @@ import Title from './title'
 class App extends Component {
   render() {
     return (
-      <div className="conteiner">
+      <div className='container'>
         <Title name='Fernando' />
       </div>
     )
