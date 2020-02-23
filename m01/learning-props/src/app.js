@@ -10,8 +10,9 @@ class App extends Component {
     return (
       <div className='container'>
         {
-          ['blue', 'red', 'green'].map((square) => (
-            <Square key={square} color={square} />
+          // no map o primeiro parameto é o valor e o segundo o index do elemento
+          ['blue', 'red', 'blue'].map((square, index) => (
+            <Square key={index} color={square} />
           ))
         }
 
